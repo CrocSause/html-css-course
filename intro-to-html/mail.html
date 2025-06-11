@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mail Challenge</title>
+
+    <style>
+      div {
+        font-family: Arial;
+      }
+      .inbox-header {
+        font-family: Arial;
+        font-size: 12px;
+        color: gray;
+        padding-left: 8px;
+        padding-top: 6px;
+        margin-bottom: 0;
+      }
+
+      .mail-preview-grid {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 60px 1fr;
+      }
+
+      .mail-photo-section {
+        display: flex;
+        width: 60px;
+        margin-top: 0;
+      }
+
+      .mail-photo {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 14px;
+      }
+
+      .mail-text {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-left: 2px;
+        row-gap: 2px;
+      }
+
+      .message-heading {
+        display: grid;
+        grid-template-columns: 500px 1fr;
+        padding-top: 4px;
+      }
+
+      .sender {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .time {
+        text-align: right;
+        padding-right: 12px;
+        color: gray;
+        font-size: 12px;
+      }
+
+      .subject {
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .message {
+        font-size: 12px;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="inbox-header">ALL INBOXES</div>
+    <div class="mail-grid">
+      <div class="mail-preview-grid">
+        <div class="mail-photo-section">
+          <img  class="mail-photo" src="channel-pictures/channel-1.jpeg">
+        </div>
+        <div class="mail-text">
+          <div class="message-heading">
+            <div class="sender">Chewy Promotions</div>
+            <div class="time">4:58PM</div>
+          </div>
+          <div class="subject">Biggest sales of the year!</div>
+          <div class="message">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+      <div class="mail-preview-grid">
+        <div class="mail-photo-section">
+          <img  class="mail-photo" src="channel-pictures/channel-1.jpeg">
+        </div>
+        <div class="mail-text">
+          <div class="message-heading">
+            <div class="sender">Chewy Promotions</div>
+            <div class="time">4:58PM</div>
+          </div>
+          <div class="subject">Biggest sales of the year!</div>
+          <div class="message">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+      <div class="mail-preview-grid">
+        <div class="mail-photo-section">
+          <img  class="mail-photo" src="channel-pictures/channel-1.jpeg">
+        </div>
+        <div class="mail-text">
+          <div class="message-heading">
+            <div class="sender">Chewy Promotions</div>
+            <div class="time">4:58PM</div>
+          </div>
+          <div class="subject">Biggest sales of the year!</div>
+          <div class="message">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

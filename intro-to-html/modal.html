@@ -1,0 +1,57 @@
+<!DOCTYPE html><html>
+  <head>
+    <title>Modal Practice</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      .sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: green;
+        color: white;
+        width: 100px;
+      }
+
+      .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flexbox;
+        justify-content: center;
+      }
+
+      .modal {
+        background-color: white;
+        color: black;
+        width: 300px;
+        height: 125px;
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-left: 450px;
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="modal">
+        <h1>Modal</h1>
+        <p>This is a modal window.</p>
+        <button>Close</button>
+      </div>
+    </div>
+    <div class="sidebar">
+      right sidebar
+    </div>
+  </body>
+</html>

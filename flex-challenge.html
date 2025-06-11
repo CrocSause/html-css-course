@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Challenge</title>
+    <style>
+      .flexbox {
+        background-color: mediumpurple;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .flexbox div {
+        padding: 2px;
+        margin: 10px;
+      }
+
+      .home {
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      .download-button {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+
+      .search-bar {
+        width: 500px;
+        padding: 5px;
+        border-radius: 20px;
+        border: 1px solid white;
+        background-color: white;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class ="home">Home</div>
+      <div class="search-bar-container">
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+      <div class="download-button-container">
+        <button class="download-button">Download</button>
+      </div>
+    </div>
+  </body>
